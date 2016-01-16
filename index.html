@@ -1,100 +1,436 @@
 <!DOCTYPE html>
-<html class="html" lang="en-US">
- <head>
+<html lang="en">
 
-  <script type="text/javascript">
-   if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["jquery-1.8.3.min.js", "museutils.js", "jquery.musemenu.js", "jquery.watch.js", "index.css"], "outOfDate":[]};
-</script>
-  
-  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
-  <meta name="generator" content="2015.0.0.309"/>
-  <title>Home</title>
-  <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
-  <link rel="stylesheet" type="text/css" href="css/master_a-master.css?4130303765"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?356790955" id="pagesheet"/>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   document.documentElement.className += ' js';
-</script>
-  <!-- JS includes -->
-  <!--[if lt IE 9]>
-  <script src="scripts/html5shiv.js?4241844378" type="text/javascript"></script>
-  <![endif]-->
-   </head>
- <body>
+<head>
 
-  <div class="clearfix" id="page"><!-- column -->
-   <div class="position_content" id="page_position_content">
-    <div class="clearfix colelem" id="pu118"><!-- group -->
-     <div class="clip_frame grpelem" id="u118"><!-- image -->
-      <img class="block" id="u118_img" src="images/banner.jpg" alt="" width="960" height="250"/>
-     </div>
-     <div class="clip_frame grpelem" id="u75"><!-- image -->
-      <img class="block" id="u75_img" src="images/banner.jpg" alt="" width="960" height="250"/>
-     </div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DAB</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancerColors.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">The Drug Addiction Bureau</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">Drugs</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#advice">Advice</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#philosophy">Successes</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">The Drug Addiction Bureau</span>
+                        <hr class="star-light">
+                        <span class="skills">Stray From Addiction</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Drugs</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/weed.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/coke.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/alcohol.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">         
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/weedstatsfront.png" class="img-responsive" alt="">        <!--put graphs -->
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/cokefront.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/drinkingfront.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Advice Section -->
+    <section class="success" id="advice">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Advice</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>"Always bear in mind that your own resolution to success is more important than any other one thing.".</p>
+					<p>If you are suffering from drug usage, please do not be afraid as there is a solution to this problem. The first and most difficult step is to realize that the problem is real and to set your mind to the right attitude in order to fix this problem. There are many things you can do to fix this situation. It is never too late to not start fixing this problem. Looking for others or help, can almost always not be a certain fix, but can be a mere step towards fixing this problem.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>By taking pieces at a time and slowly , and by slowly curbing the need to use the drugs and by trying to be abstemious from it a little by little, it can be feasible to do what may seem the impossible and stop the drug usage. Another method is to go to your doctor and get medical help if anything gets serious as your health is the most important thing and your doctor is fortunately specialized in treating for the betterment of your health. The most important thing in your life is your health, and you can take the steps to changing your life for the best.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophy">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Successes</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                                <div class="col-lg-4 col-lg-offset-2">
+                    <p>“Here is the solution to the American drug problem suggested a couple years back by the wife of our President: Just say no.” </p>
+                </div>
+                <div class="col-lg-4">
+                    <p>"But I will say that the drugs are much more ferocious than they used to be. There are people wrecking their lives with addiction, which seems much more severe."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                    </div>
+                    <div class="footer-col col-md-4">
+                     </div>
+                    <div class="footer-col col-md-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; DAB
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
     </div>
-    <div class="clearfix colelem" id="pmenuu255"><!-- group -->
-     <nav class="MenuBar clearfix grpelem" id="menuu255"><!-- horizontal box -->
-      <div class="MenuItemContainer clearfix grpelem" id="u256"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u257" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u259-4"><!-- content --><p>Home</p></div></a>
-      </div>
-      <div class="MenuItemContainer clearfix grpelem" id="u263"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u264" href="drugs.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u265-4"><!-- content --><p>Drugs</p></div><div class="grpelem" id="u266"><!-- image --></div></a>
-       <div class="SubMenu  MenuLevel1 clearfix" id="u268"><!-- vertical box -->
-        <ul class="SubMenuView clearfix colelem" id="u269"><!-- vertical box -->
-         <li class="MenuItemContainer clearfix colelem" id="u290"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u291" href="cocaine.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u293-4"><!-- content --><p>Cocaine</p></div></a></li>
-         <li class="MenuItemContainer clearfix colelem" id="u302"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u303" href="marijuana.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u306-4"><!-- content --><p>Marijuana</p></div></a></li>
-         <li class="MenuItemContainer clearfix colelem" id="u309"><!-- horizontal box --><a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix grpelem" id="u310" href="alcohol.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u312-4"><!-- content --><p>Alcohol</p></div></a></li>
-        </ul>
-       </div>
-      </div>
-      <div class="MenuItemContainer clearfix grpelem" id="u277"><!-- vertical box -->
-       <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u280" href="advice.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u283-4"><!-- content --><p>Advice</p></div></a>
-      </div>
-     </nav>
-     <div class="clip_frame grpelem" id="u235"><!-- image -->
-      <img class="block" id="u235_img" src="images/alcohol2.png" alt="" width="922" height="614"/>
-     </div>
-     <div class="clearfix grpelem" id="u247-3"><!-- content -->
-      <p>&nbsp;</p>
-     </div>
-     <div class="clearfix grpelem" id="u248-3"><!-- content -->
-      <p>&nbsp;</p>
-     </div>
-     <div class="clip_frame grpelem" id="u249"><!-- image -->
-      <img class="block" id="u249_img" src="images/weed.jpg" alt="" width="920" height="613"/>
-     </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Marijuana (Cannabis Sativa)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/weed.png" class="img-responsive img-centered" alt="">
+                            <p>Marijuana, more commonly known as weed or cannabis, is a plant that contains tetrahydrocannabinol (THC) and several other psychoactive and anxiolytic elements that contribute towards it being the most illicitly used drug in the world. Coming from the cannabis sativa plant (dry hemp plant), weed has grown to be very popular for its ephemerally relaxing and physical effects. Many people continue to use its medicinal purposes as a scapegoat to continuously go on a high or to use the drug addictively. While many people become more and more accustomed towards using weed, they become blinded towards the adverse effects that come with the drug. Long term brain damage, impairment of motor skills, mood swings, increased heart rate, and pregnancy problems comprise only a small list of the potentially toxic effects your body could have while using the drug recreationally. While these effects may be of minimal importance/possibility in the long run to most people, it is definitive to all people that the use of marijuana has been proven to stress the heart which can lead to a heart attack at any moment. Another major problem that arises is the possibility of synthetic marijuana, which is essentially a deadly concoction of many chemicals of any amount. This has been recognized as a more deadly version of marijuana as it has definitively harmed numerous people who are under the false pretense that is marijuana, when in reality they are drinking none other than their death sentence. Weed,  a speciously innocuous drug that continues to be widely overused,causing harm to many around the world, it is important to curb its usage. </p>
+                            <ul class="list-inline item-details">
+                                <li>Al Jazeera:
+                                    <strong><a href="http://america.aljazeera.com/topics/topic/issue/marijuana.html">Marijuana in America</a>
+                                    </strong>
+                                </li>
+                                <li>Drug-Free World:
+                                    <strong><a href="http://www.drugfreeworld.org/drugfacts/marijuana/short-and-long-term-effects.html">The Truth About Marijuana</a>
+                                    </strong>
+                                </li>
+                                <li>Family Council:
+                                    <strong><a href="https://familycouncil.org/?p=11795">Deaths by Marijuana </a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="verticalspacer"></div>
-    <div class="clip_frame colelem" id="u241"><!-- image -->
-     <img class="block" id="u241_img" src="images/cocaine1.jpg" alt="" width="920" height="613"/>
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cocaine (C17H21NO4)</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/coke.png" class="img-responsive img-centered" alt="">
+                            <p>Cocaine, a white powder that produces sensations of euphoria, alertness, and energy, is a very powerful stimulant that is commonly injected, snorted, or even smoked. Dating all the way from  the Incas (3000 BCE) , who  were the first to extract the cocoa leaves and chew on them in order to increase their breathing rates, cocaine has become a hugely popular yet powerful drug with several deleterious effects. Initially at first, around the 1800s when the infamous drug first started to gain global traction and eventually to the turn of the century, the drug was seen as a panacea towards psychological problems and common illnesses. Although as higher and higher doses were promoted ubiquitously along with the general increase in availability of the drug itself, more and more people began to experience severe addictions to this drug, regardless of the adverse effects and toll it took on their health. At this point in time, after much experimentation of the drug and wide-spread usage of it, numerous cases of addiction,  death, injuries, and overall pain had been reported. Many people began to see its noxious effects and began to eschew its popularity and growth. In 1922, the U.S. banned the drug’s usage through the population’s general discomfort and harmful effects with the drug. Albeit this, the drug’s rate increased at an alarming rate throughout the next 75 years. In 2008, the drug was so popular around the world that it became the 2nd most trafficked drug. To this day, over 22 million people,  across 174 countries around the world, use the drug in order to gain a sensation of euphoria, alertness, or energy. But many of them are unaware about  the underlying, noxious, and damaging effects the drug brings with it. </p>
+                            <ul class="list-inline item-details">
+                                <li>Video:
+                                    <strong><a href="https://www.youtube.com/watch?v=iunRzPP7NVw">10 Things About Cocaine</a>
+                                    </strong>
+                                </li>
+                                
+                                <li>Drug Facts:
+                                    <strong><a href="http://www.drugabuse.gov/publications/drugfacts/cocaine">Cocaine Facts</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Back</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-   </div>
-  </div>
-  <!-- JS includes -->
-  <script type="text/javascript">
-   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script type="text/javascript">
-   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
-</script>
-  <script src="scripts/museutils.js?183364071" type="text/javascript"></script>
-  <script src="scripts/jquery.musemenu.js?3957776250" type="text/javascript"></script>
-  <script src="scripts/jquery.watch.js?71412426" type="text/javascript"></script>
-  <!-- Other scripts -->
-  <script type="text/javascript">
-   $(document).ready(function() { try {
-(function(){var a={},b=function(a){if(a.match(/^rgb/))return a=a.replace(/\s+/g,"").match(/([\d\,]+)/gi)[0].split(","),(parseInt(a[0])<<16)+(parseInt(a[1])<<8)+parseInt(a[2]);if(a.match(/^\#/))return parseInt(a.substr(1),16);return 0};(function(){$('link[type="text/css"]').each(function(){var b=($(this).attr("href")||"").match(/\/?css\/([\w\-]+\.css)\?(\d+)/);b&&b[1]&&b[2]&&(a[b[1]]=b[2])})})();(function(){$("body").append('<div class="version" style="display:none; width:1px; height:1px;"></div>');
-for(var c=$(".version"),d=0;d<Muse.assets.required.length;){var f=Muse.assets.required[d],g=f.match(/([\w\-\.]+)\.(\w+)$/),k=g&&g[1]?g[1]:null,g=g&&g[2]?g[2]:null;switch(g.toLowerCase()){case "css":k=k.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");c.addClass(k);var g=b(c.css("color")),h=b(c.css("background-color"));g!=0||h!=0?(Muse.assets.required.splice(d,1),"undefined"!=typeof a[f]&&(g!=a[f]>>>24||h!=(a[f]&16777215))&&Muse.assets.outOfDate.push(f)):d++;c.removeClass(k);break;case "js":k.match(/^jquery-[\d\.]+/gi)&&
-typeof $!="undefined"?Muse.assets.required.splice(d,1):d++;break;default:throw Error("Unsupported file type: "+g);}}c.remove();if(Muse.assets.outOfDate.length||Muse.assets.required.length)c="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",(d=location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi))&&Muse.assets.outOfDate.length&&(c+="\nOut of date: "+Muse.assets.outOfDate.join(",")),d&&Muse.assets.required.length&&(c+="\nMissing: "+Muse.assets.required.join(",")),alert(c)})()})();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
-Muse.Utils.prepHyperlinks(true);/* body */
-Muse.Utils.initWidget('.MenuBar', function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
-Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
-} catch(e) { if (e && 'function' == typeof e.notify) e.notify(); else Muse.Assert.fail('Error calling selector function:' + e); }});
-</script>
-   </body>
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Alcohol</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/alcohol.png" class="img-responsive img-centered" alt="">
+                            <p>As the leading factor of driving accidents globally, a cause for almost 88000 deaths annually in the United States , and causing almost 5.9% of all global deaths in 2012, alcohol drug use  is one of the biggest problems that we face today. Alcohol itself is essentially a central nervous system depressant more or less and has numerous effects on your body which prove to be detrimental.  Ranging from reduction in motor skills up to death, there are a wide spread of potentially deadly events that could happen through the use of this drug. One of the major problems associated with this is  binge drinking (over-drinking essentially). Binge drinking not only puts an increased amount of alcohol in one’s system, but also puts an increased amount of pressure onto your liver, which will not be a good thing as it is the largest organ in the body and can lead to severe issues. As people binge drink, the problem that also arises is that the drinks they binge, such as vodka or hard liquor, can contain up to 40 percent of alcohol, which is more than enough to cause death. There are also numerous social problems which come forth with alcohol drug use, such as problems at the workplace, at school, or even with friends. By proving to be a significant factor in the deaths of many Americans, it is important to realize that this drug, can very well prove to be a catastrophe for the upcoming years ahead. That is why, it is important now to instigate an action, in order to help curb its drastic usage. </p>
+                            <ul class="list-inline item-details">
+                                <li>Stories:
+                                    <strong><a href="http://www.drugfreeworld.org/real-life-stories/alcohol.html">Real Life Stories</a>
+                                    </strong>
+                                </li>
+                                <li>Abuse:
+                                    <strong><a href="https://www.youtube.com/watch?v=P08mdUsjjRk">Alcohol Abuse</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Facts and Statistics</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/weedstatsback.png" class="img-responsive img-centered" alt="">
+                            <p>THC remains in the body for weeks after usage of marijuana</p>
+							<p>Marijuana contains 50-70% more carcinogenic elements than regular tobacco</p>
+							<p>Bronchitis (inflammation of respiratory tract) is very probably</p>
+                            <p>Can lead to several hereditary defects</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Facts and Statistics</h2>   <!--askjhfd-->
+                            <hr class="star-primary">
+                            <img src="img/portfolio/cokeback.png" class="img-responsive img-centered" alt="">
+                            <p>Powdered cocaine -- commonly known on the street as "coke" or "blow" -- dissolves in water. Users can snort or inject powdered cocaine.</p>
+							<p>Crack cocaine -- commonly known on the street as "crack" or "rock" -- is made by a chemical process that leaves it in its "freebase" form, which can be smoked</p>
+							<p>About 14% of U.S. adults have tried cocaine. One in 40 adults has used it in the past year. Young men aged 18 to 25 are the biggest cocaine users, with 8% using it in the previous 12 months</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Facts and Statistics</h2>
+                            <hr class="star-primary">
+                            <img src="img/portfolio/drinkingback.png" class="img-responsive img-centered" alt="">
+                            <p>About 1.3 million adults received treatment for an alcohol use disorder in 2013 </p>
+							<p>In 2013, alcohol caused 10,076 deaths.</p>
+							<p>Alcohol cost the US $223.5 billion in 2006 in damages.</p>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
+</body>
+
 </html>
